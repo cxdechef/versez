@@ -1,0 +1,178 @@
+
+
+
+
+
+
+:root {
+  --white-color: #ffffff;
+  --grey-color: #f5f5f7;
+  --black-color: #1d1d1f;
+  --orange-color: #ff4e2a;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    display: flex;
+    gap: 20px;
+
+}
+
+
+aside {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    height: 100vh;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.logo-dot {
+    color: var(--orange-color);
+}
+
+
+main {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+ 
+}
+
+.search-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.search-links p {
+  font-weight: 600;
+}
+
+
+.search-container {
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    border-radius: 25px; 
+    overflow: hidden;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #6e6e7352; 
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+  }
+  
+  .search-icon {
+    cursor: pointer;
+    margin-left: 40px;
+  }
+  
+  .search-input::placeholder {
+    color: #6e6e73;
+  }
+
+.full-book-card{
+  position: relative;
+  width: fit-content;
+  
+}
+  .blur-card {
+    position: relative;
+    width: 400px; /* Adjust width as needed */
+    height: 140px; /* Adjust height as needed */
+    overflow: hidden;
+    border-radius: 30px;
+  }
+
+  /* Styles for the background image */
+  .blur-img {
+    width: 100%;
+    height: auto;
+    filter: blur(40px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .trending-book-card {
+    color: #ffffff;
+    display: flex;
+    gap: 20px;
+    align-items: end;
+    position: absolute;
+    top: -25px;
+    left: 20px;
+  }
+
+
+
+  #cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+ 
+
+  .main-book-img, .released-img{
+    height: 150px;
+    width: auto;
+    border-radius: 15px; 
+  }
+
+  .book-text{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .black-book-text {
+    color: var(--black-color) ;
+  }
+  .book-text p{
+    font-size: 0.8em;
+    font-weight: 600;
+  }
+
+#all-released-books {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
