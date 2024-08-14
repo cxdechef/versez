@@ -1,0 +1,28 @@
+{
+    "feedbacks": [
+      {
+        "user": "John Adel",
+        "feedback": "Great Quality!",
+        "comment": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti excepturi delectus ratione asperiores dolorem enim minus a, facilis suscipit magnam?",
+        "img": "../../public/assets/user.svg",
+        "rate": 5
+      },
+      {
+        "user": "Samar Ahmed",
+        "feedback": "Great Quality!",
+        "comment": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti excepturi delectus ratione asperiores dolorem enim minus a, facilis suscipit magnam?",
+        "img": "../../public/assets/user.svg",
+        "rate": 4
+
+      },
+      {
+        "user": "Ehab Mohamed",
+        "feedback": "Great Quality!",
+        "comment": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti excepturi delectus ratione asperiores dolorem enim minus a, facilis suscipit magnam?",
+        "img": "../../public/assets/user.svg",
+        "rate": 3
+
+      }
+    ]
+  }
+  

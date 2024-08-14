@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+
+
+:root {
+  --white-color: #ffffff;
+  --grey-color: #f5f5f7;
+  --sub-grey-color: #6e6e73;
+  --black-color: #1d1d1f;
+  --orange-color: #ff4e2a;
+  --green-color: #0b9e43;
+  --red-color: #e94242;
+  --sub-green-color: #e9b442;
+  --blue-color: #0d5a87;
+  --border-color: #6e6e7352;
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: "Urbanist", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: var(--grey-color);
+  color: var(--black-color);
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.logo-dot {
+  color: var(--orange-color);
+}
+
+
+.logo h1,.versez-logo-footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+
+a {
+  text-decoration: none;
+  color: var(--black-color);
+  transition: all;
+  transition-duration: 0.3s;
+}
+
+a:hover {
+  color: var(--orange-color);
+}
+
+.logo-link:hover {
+  color: var(--black-color) !important;
+}
+
+ul li {
+  list-style: none;
+}
+
+
+button {
+  font-family: "Urbanist", sans-serif;
+
+border: none; 
+
+}
+
+h2 {
+  font-weight: 900;
+}
+
+
+
+.search-links{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.search-links p {
+font-weight: 600;
+}
+
+.shop-now {
+display: flex;
+align-items: center;
+gap: 10px
+}
+
+.user-icon {
+height: 25px;
+cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none; 
+  position: absolute;
+  top: 70px; 
+  right: 60px; 
+  background-color: var(--white-color);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.dropdown-menu button {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  color: var(--orange-color);
+  font-weight: 800;
+}
+
+.dropdown-menu button:hover {
+  background-color: var(--grey-color);
+}
+
+.up-arrow {
+  height: 25px;
+  position: absolute;
+  right: 4px;
+  top: -20px;
+}
+
+
+.search-container {
+  background-color: var(--white-color);
+  display: flex;
+  align-items: center;
+  border-radius: 25px; 
+  overflow: hidden;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #6e6e7352; 
+}
+
+.search-input {
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.search-input::placeholder {
+  color: #6e6e73;
+}
+
+
+.cart-notifications {
+position: relative;
+}
+
+.notifications{
+position: absolute;
+width: 10px;
+height: 10px;
+border-radius: 100%;
+right: -3px;
+background-color: var(--red-color);
+}
+
+aside {
+  height: 100vh;
+  display: none;
+  width: 12em;
+  font-weight: 800;
+  padding: 0 20px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.aside-user {
+  height: 100px;
+}
+.saved,.logout {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  width: fit-content;
+}
+.dashboard {
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.saved-icon{
+  height: 17px;
+}
+
+.dashboard-icon{
+  height: 22px;
+}
+
+.logout-icon{
+  height: 25px;
+}
+
+.aside-logo{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+.welcome-badge{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+#admin-badge {
+  height: 15px;
+
+}
+
+
+
+.floating-dock {
+  position: fixed;
+  top: 50%;
+  right: 1%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--grey-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 0px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.floating-dock a {
+  margin: 0 10px;
+  }
+
+.dock-home-icon{
+  height: 22px;
+}
+
+.dock-shop-icon {
+  height: 19px;
+}
+
+
+.dock-cart-icon {
+  height: 24px;
+}

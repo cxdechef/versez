@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Book Store Made JUST FOR FUN">
+    <link rel="icon" type="image/svg+xml" href="../../public/assets/book.svg">
+
+    <link rel="stylesheet" href="user.css" />
+    <link rel="stylesheet" href="../../style/global.css" />
+    <title>Versez - Create An Account</title>
+</head>
+<body>
+
+
+
+    <section id="register">
+        <div class="logo">
+        
+            <h1>VERSEZ<span class="logo-dot">.</span></h1>
+          </div>
+
+
+
+
+          <div class="container">
+            <h2>Create An Account</h2>
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label>Role</label>
+                    <div>
+                        <input type="radio" id="user-role" name="role" value="user" required>
+                        <label for="user">User</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="admin-role" name="role" value="admin">
+                        <label for="admin">Admin</label>
+                    </div>
+                </div>
+                <button type="submit">CREATE</button>
+            </form>
+            <p id="message"></p>
+        </div>
+
+
+
+
+
+
+
+          
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="floating-dock">
+    <a href="../../view/home/index.html"><img class="dock-home-icon" src="../../public/assets/dock/home.svg" alt=""></a>
+    <a href="../../view/shop/shop.html"><img class="dock-shop-icon" src="../../public/assets/dock/shop.svg" alt=""></a>
+    <a href="../../view/checkout/checkout.html"><img class="dock-cart-icon" src="../../public/assets/dock/empty-cart.svg" alt=""></a>
+  </div>
+
+    <script src="../../controller/register.js"></script>
+</body>
+</html>
