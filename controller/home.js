@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     logoutButton.addEventListener('click', function() {
-        localStorage.removeItem('loggedInUser');
+        localStorage.clear();
         window.location.href = '../../view/home/index.html'; 
 
     });
