@@ -40,6 +40,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
 
+
+
     function displayReleasedBooks(books) {
         releasedBookContainer.innerHTML = '';
 

@@ -67,7 +67,7 @@ a:hover {
   color: var(--orange-color);
 }
 
-.logo-link:hover {
+.logo-link:hover,.dashboard-link {
   color: var(--black-color) !important;
 }
 
