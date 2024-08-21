@@ -10,6 +10,7 @@
     <link rel="icon" type="image/svg+xml" href="../../public/assets/book.svg">
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="../../style/global.css" />
+    <link rel="stylesheet" href="../../style/media-query.css" />
     
     <title>Versez - Book Store</title>
   </head>
@@ -55,7 +56,7 @@
 <div class="header-main">
 
 
-  <header>
+  <header class="header-container">
     <a class="logo-link" href="../home/index.html"> <div class="logo">
       <img src="../../public/assets/book.svg" width="30" height="30" alt="">
       <h1>VERSEZ<span class="logo-dot">.</span></h1>
@@ -68,6 +69,9 @@
         <input type="text" class="search-input" placeholder="Search your books">
         <img src="../../public/assets/search.svg" width="15" height="15" alt="" class="search-icon">
       </div>
+
+      <div class="shop-user-cart">
+
       
       <a href="../shop/shop.html">
         <div class="shop-now">
@@ -88,6 +92,7 @@
         <a href="../checkout/checkout.html"><img src="../../public/assets/empty-cart.svg" width="25" height="25" alt=""></a>
         <span class="notifications"></span>
       </div>
+    </div>
       
     </div>
 
@@ -249,7 +254,7 @@
       </ul>
     </div>
     <div class="column">
-      <h5>OUR NEWS LETTER</h5>
+      <p class="newsletter-title">OUR NEWS LETTER</p>
 <P>Sign Up For Our Latest News And Offers</P>
 <div class="newsletter">
   <input type="text" placeholder="Enter your email" class="email-input">

@@ -25,7 +25,9 @@
 
 
 
-
+html {
+  font-size: 100%;
+}
 
 
 
@@ -36,6 +38,7 @@ body {
   padding: 0;
   background-color: var(--grey-color);
   color: var(--black-color);
+  font-size: 1rem;
 }
 
 
@@ -87,7 +90,29 @@ h2 {
   font-weight: 900;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
 
+}
+
+.header-main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+
+}
+
+
+.shop-user-cart{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 
 .search-links{
   display: flex;
@@ -115,7 +140,7 @@ cursor: pointer;
   display: none; 
   position: absolute;
   top: 70px; 
-  right: 60px; 
+  right: 55px; 
   background-color: var(--white-color);
   border: 1px solid var(--border-color);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);

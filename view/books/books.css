@@ -1,122 +1,120 @@
-
-
-
 #book {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 30px;
 }
-   
-   
-   .blur-card {
-      position: relative;
-      width: 100%;
-      height: 450px;
-      overflow: hidden;
-      border-radius: 50px;
-    }
-  
-    .blur-img {
-      width: 100%;
-      height: auto;
-      filter: blur(50px);
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -1;
-    }
-  
 
-  .blur-main-img-container{
-    position: relative;
-    margin-bottom: 60px;
-  }
-    .main-img{
-        height: 400px;
-        width: auto;
-        border-radius: 30px; 
-      position: absolute;
-      bottom: -50px;
-      left: 50px;
+/* Default styles */
+.blur-card {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 50px;
+}
 
-      }
- 
-    
-  .category-container{
-     height: 20px;
-    width: 100%;
-  }
+.blur-img {
+  width: 100%;
+  height: auto;
+  filter: blur(50px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 
+.blur-main-img-container {
+  position: relative;
+  margin-bottom: 60px;
+}
 
-  .category-name{
-    color: var(--white-color);
-    font-weight: 800;
-    position: absolute;
-    top: 20px;
-    right: 50px;
-    background-color: rgb(255, 255, 255,0.15);
-    padding: 4px 40px;
-    border-radius: 2em;
-  }
+.main-img {
+  height: 400px;
+  width: auto;
+  border-radius: 30px;
+  position: absolute;
+  bottom: -50px;
+  left: 50px;
+}
 
+.category-container {
+  height: 20px;
+  width: 100%;
+}
 
-  .title-author-container {
-position: absolute;
-top: 35%;
-left: 30% ;
-  }
-  .book-title,  .author-title  {
-    color: var(--white-color);
-    font-weight: 900;
-    font-size: 2em;
-  }
-  .author-title {
-    color: var(--white-color);
-    opacity: 0.8;
-    font-size: 1.5em;
-    line-height: 0.1;
-  }
+.category-name {
+  color: var(--white-color);
+  font-weight: 800;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 4px 40px;
+  border-radius: 2em;
+}
 
-  .book-page-text-container{
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-  }
+.title-author-container {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+}
 
-  .plot-wishlist{
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .wishlist{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  }
+.book-title,
+.author-title {
+  color: var(--white-color);
+  font-weight: 900;
+}
 
-  .wishlist-icon{
-    height: 15px;
-    width: auto;
-  }
+.book-title {
+  font-size: 2em;
+}
 
-  .wishlist p{
-    color: var(--orange-color);
-    font-weight: 600;
-    text-decoration: underline;
-  }
+.author-title {
+  color: var(--white-color);
+  opacity: 0.8;
+  font-size: 1.5em;
+  line-height: 0.1;
+}
 
-  .plot-wishlist h4 {
-    font-size: 2.2em;
-    font-weight: 800;
-  }
+.book-page-text-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
 
+.plot-wishlist {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wishlist {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.wishlist-icon {
+  height: 15px;
+  width: auto;
+}
+
+.wishlist p {
+  color: var(--orange-color);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.plot-wishlist h4 {
+  font-size: 2.2em;
+  font-weight: 800;
+}
 
 .description {
   font-size: 1.5em;
   font-weight: 600;
 }
 
-.price-publisher-length{
+.price-publisher-length {
   display: flex;
   align-items: center;
   gap: 50px;
@@ -125,31 +123,28 @@ left: 30% ;
 
 .publisher p:first-child,
 .length p:first-child,
-.price p:first-child
-{
+.price p:first-child {
   font-weight: 800;
   font-size: 1.2em;
-} 
+}
 
 .publisher p:nth-child(2),
 .length p:nth-child(2),
-.price p:nth-child(2)
-{
+.price p:nth-child(2) {
   font-size: 1.1em;
   font-weight: 500;
-} 
+}
 
 .buy-btn {
   font-size: 1.1em;
-    color: var(--white-color);
-    font-weight: 600;
-    background-color: var(--black-color);
-    padding: 10px 30px;
-    border-radius: 2em;
-    width: fit-content;
-    border: none; 
-    cursor: pointer;
-
+  color: var(--white-color);
+  font-weight: 600;
+  background-color: var(--black-color);
+  padding: 10px 30px;
+  border-radius: 2em;
+  width: fit-content;
+  border: none;
+  cursor: pointer;
 }
 
 .button-message {
@@ -159,23 +154,20 @@ left: 30% ;
   display: flex;
   align-items: center;
   line-height: 0.1;
-
 }
-
 
 .cart-message {
   display: flex;
   align-items: center;
   font-size: 0.8em;
-  
 }
 
 .cart-message .check-mark {
   margin-left: 5px;
-  vertical-align: middle; 
-  
+  vertical-align: middle;
 }
 
 .check-mark {
   height: 13px;
 }
+
