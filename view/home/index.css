@@ -325,4 +325,7 @@ align-items: center;
 
 
 
-  
+  .shop-user-cart{
+    display: flex;
+    align-items: center;
+  }
