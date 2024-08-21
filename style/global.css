@@ -215,7 +215,7 @@ background-color: var(--red-color);
 aside {
   height: 100vh;
   display: none;
-  width: 12em;
+  width: 13em;
   font-weight: 800;
   padding: 0 20px;
   flex-direction: column;
@@ -262,7 +262,11 @@ aside {
   display: flex;
   align-items: center;
   gap: 3px;
+  white-space: nowrap;
 }
+
+
+
 #admin-badge {
   height: 15px;
 

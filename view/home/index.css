@@ -36,6 +36,7 @@ height: 100vh;
   line-height: 0.1;
 }
 
+
 .hero-fun {
   color: var(--orange-color);
   text-decoration: underline;
@@ -322,8 +323,6 @@ align-items: center;
     font-size: 1.2em;
     color: var(--red-color);
   }
-
-
 
   .shop-user-cart{
     display: flex;

@@ -1,42 +1,25 @@
 
+/* Home */
 
-/* Global */
-
-
-@media (max-width: 992px) {
-
-    aside {
-        display:  none;
-     }
-}
-
-@media (max-width: 768px) {
-    aside {
-        display:  none;
-     }
-
-}
-
-@media (max-width: 576px) {
- 
-    aside {
-        display:  none;
-     }
-}
-/* @media (max-width: 1500px) {
+@media (max-width: 1530px) {
+    .hero-text{
+        line-height: 1 !important;
+        text-align: left;
+    }
     aside {
         display: none !important;
     }
-} */
-
-/* Home */
+   
+}
 @media (max-width: 1300px) {
     .hero-text{
-        line-height: 1;
         text-align: center;
     }
 
 
+    aside {
+        display: none !important;
+    }
 
   }
   
@@ -280,7 +263,8 @@ gap: 50px;
 }
 
 
-   
+
+  
 
 
   }
