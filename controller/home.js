@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
            const adminDashboard = document.querySelector('.dashboard');
            
            if (welcomeUserElement) {
-               welcomeUserElement.innerHTML = `Welcome Back,${loggedInUser.username}`;
+               welcomeUserElement.innerHTML = `${loggedInUser.username}`;
            }
    
            if (loggedInUser.role === 'admin') {

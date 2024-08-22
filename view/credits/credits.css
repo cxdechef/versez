@@ -6,6 +6,7 @@
     align-items: center;
   font-family: Arial, Helvetica, sans-serif !important;
   font-weight: 900;
+  gap: 2.2rem;
 
 }
 
@@ -13,7 +14,8 @@
 #versez-iti-credits{
     display: flex;
     align-items: center;
-    gap: 40px;
+    flex-direction: column;
+    
 }
 
 #versez-iti-credits p{
@@ -22,4 +24,101 @@
 .versez-logo-credits{
     font-weight: 900;
     font-size: 3em;
+}
+
+#credits {
+    text-align: center;
+}
+
+.credits-logo{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+line-height: 0.1;
+    
+
+}
+.credits-description{
+font-size: 1.2em !important;
+line-height: 0.1;
+}
+
+
+.mvc{
+    color: var(--red-color);
+}
+
+.tech-icon,.behance-icon{
+    height: 60px;
+    width: auto;
+}
+
+.colors {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.colors div:nth-child(1) {
+    height: 50px !important;
+    width: 50px !important;
+    background-color: var(--orange-color);  
+
+}
+
+.colors div:nth-child(2) {
+    height: 50px !important;
+    width: 50px !important;
+    background-color: var(--yellow-color); 
+}
+
+.colors div:nth-child(3) {
+    height: 50px !important;
+    width: 50px !important;
+    background-color: var(--blue-color);
+
+}
+
+.colors div:nth-child(4) {
+    height: 50px !important;
+    width: 50px !important;
+    background-color: var(--green-color);
+}
+
+.colors div:nth-child(5) {
+    height: 50px !important;
+    width: 50px !important;
+    background-color: var(--red-color);  
+
+
+}
+
+.colors div:nth-child(6) {
+    height: 50px !important;
+    width: 50px !important;
+    background-color: var(--black-color);  
+
+}
+.github-icons,.behance-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    }
+
+    .behance-icons {
+        gap: 20px;
+    }
+
+.github img:nth-child(1) {
+    height: 40px;
+    width: auto;
+}
+.github img:nth-child(2) {
+    height: 60px;
+    width: auto;
+}
+
+
+#credits-footer {
+    line-height: 0.5;
 }

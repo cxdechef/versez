@@ -37,10 +37,6 @@ height: 100vh;
 }
 
 
-.hero-fun {
-  color: var(--orange-color);
-  text-decoration: underline;
-}
 .hero-book{
   height: 25em;
 }
@@ -155,7 +151,7 @@ section h2 {
 background-color: var(--red-color);
 }
 #chart-2 {
-  background-color: var(--sub-green-color);
+  background-color: var(--yellow-color);
 
 }
 #chart-3 {
@@ -245,86 +241,3 @@ align-items: center;
 }
 
   
-  .link-columns{
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-  }
-
-
-  .newsletter {
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-
-.email-input {
-  width: 100%;
-    padding: 10px;
-    border: none;
-    outline: none;
-}
-
-.subscribe-button {
-    background-color: var(--orange-color);
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.subscribe-button img {
-    height: 16px;
-}
-
-  
-.footer-container{
-  font-weight: 600;
-  padding: 0 30px;
-  border-top: 3px solid var(--border-color);
-}
-.footer-container h5 {
-  font-weight: 800;
-  font-size: 1em;
-  color: var(--orange-color);
-}
-
-.newsletter-title{
-  font-weight: 800;
-  font-size: 1em;
-  color: var(--orange-color);
-}
-
-#versez-iti {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.1em;
-  gap: 20px;
-}
-
-.iti-icon {
-  height: 60px;
-}
-
-
-  .copyright {
-    font-weight: 600;
-    text-align: center;
-    line-height: 0.5;
-    border-top: 3px solid var(--sub-grey-color) ;
-  }
-  .copyright-word{
-    font-weight: 800;
-  }
-  .heart {
-    font-size: 1.2em;
-    color: var(--red-color);
-  }
-
-  .shop-user-cart{
-    display: flex;
-    align-items: center;
-  }
